@@ -1,3 +1,7 @@
+<script>
+    import { HeartIcon, SearchIcon, ShoppingCartIcon } from 'svelte-feather-icons'
+</script>
+
 <nav>
     <div class="container">
         <div class="logo">
@@ -12,7 +16,18 @@
         </div>
 
         <div class="search-cart-container">
-            
+            <div class="search-icon">
+                <SearchIcon size=30 />
+            </div>
+
+            <div class="heart-icon">
+                <HeartIcon size=30 />
+            </div>
+
+            <div class="cart-icon">
+                <ShoppingCartIcon size="30" />
+            </div>
+            <div class="total-price">$24.900</div>
         </div>
     </div>
 </nav>
@@ -27,6 +42,36 @@
         font-size: 100%;
         font: inherit;
         vertical-align: baseline;
+    }
+
+    .container {
+        display: flex;
+    }
+
+    .search-cart-container {
+        width: 30vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cart-icon {
+        margin-left: 2em;
+        color: #1e1e24;
+    }
+
+    .heart-icon {
+        margin-left: 2em;
+        color: #1e1e24;
+    }
+
+    .search-icon {
+        color: #1e1e24
+    }
+
+    .total-price {
+        font-size: 1em;
+        margin-left: 1em;
     }
 
     .links-container {
