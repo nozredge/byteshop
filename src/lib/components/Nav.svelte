@@ -33,6 +33,8 @@
     </div>
 </nav>
 
+<nav class="underline"></nav>
+
 <style>
     
     .logo-container {
@@ -46,6 +48,11 @@
         display: flex;
         width: 100vw;
         background-color: #f4f4f8;
+    }
+
+    .underline {
+        background-color: #6c757d;
+        height: 0.5em;
     }
 
     .search-cart-container {
