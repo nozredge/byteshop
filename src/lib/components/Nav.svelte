@@ -1,11 +1,12 @@
 <script>
     import { HeartIcon, SearchIcon, ShoppingCartIcon } from 'svelte-feather-icons'
+    import Logo from '$lib/components/Logo.svelte'
 </script>
 
 <nav>
     <div class="container">
-        <div class="logo">
-
+        <div class="logo-container">
+                <Logo />
         </div>
 
         <div class="links-container">
@@ -44,12 +45,20 @@
         vertical-align: baseline;
     }
 
+    .logo-container {
+        width: 20vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .container {
         display: flex;
+        width: 100vw;
     }
 
     .search-cart-container {
-        width: 30vw;
+        width: 20vw;
         display: flex;
         align-items: center;
         justify-content: center;

@@ -1,14 +1,13 @@
 <script>
-    import logo from '$lib/assets/img/bytechile_logo_1/bytechile_logo_trans.png'
+    import logo from '$lib/assets/img/bytechile_logo_1/bytechile_logo_trans_shrink.png'
 </script>
 
 <div>
-    <img class="bytechile-logo" src="{logo}" alt="logo">
+    <img class="logo" src="{logo}" alt="logo">
 </div>
 
 <style>
-    .bytechile-logo {
-        background-image: url('$');
-        width: 10vw;
+    .logo {
+        height: 10vh;
     }
 </style>
