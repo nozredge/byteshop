@@ -87,7 +87,6 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        background-color: #f4f4f8;
         height: 15vh;
         width: 60vw;
     }
