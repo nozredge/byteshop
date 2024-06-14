@@ -55,6 +55,7 @@
     .container {
         display: flex;
         width: 100vw;
+        background-color: #f4f4f8;
     }
 
     .search-cart-container {
