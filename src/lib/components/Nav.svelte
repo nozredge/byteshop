@@ -47,6 +47,7 @@
     .container {
         display: flex;
         width: 100vw;
+        height: 10vh;
         background-color: #f4f4f8;
     }
 
