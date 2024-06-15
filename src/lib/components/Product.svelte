@@ -5,13 +5,13 @@
 </script>
 
 <div>
-    <div class="telefono" 
+    <div class="product" 
         style="background-image: url('/src/lib/assets/img/{product_name}{extension}');"></div>
 </div>
 
 <style>
 
-    .telefono {
+    .product {
         /*background-size: 3em; */
         height: 40vh;
         width: 20vw;
