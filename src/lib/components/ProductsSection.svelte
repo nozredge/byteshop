@@ -1,10 +1,12 @@
 <script>
     import ProductsTitle from "./ProductsTitle.svelte";
     import Product from "./Product.svelte";
+    import Products from "./Products.svelte";
 </script>
 
 <div class="products-section-container">
     <ProductsTitle />
+    <Products />
 </div>
 
 <style>
