@@ -16,7 +16,7 @@
 
     div > h3 {
         font-size: 2.3em;
-        color: #343a40;
+        color: #555;
         font-family: "Montserrat";
     }
 </style>
