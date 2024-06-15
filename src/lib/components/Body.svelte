@@ -1,11 +1,14 @@
-<div>
+<script>
+</script>
+
+<div class="body-container">
     
 </div>
 
 <style>
-    div {
-        background-color: aliceblue;
-        width: 70vw;
-        height: 90vh;
+    .body-container {
+        display: flex;
+        justify-content: center;
+        background-color: #f4f4f8;
     }
 </style>
