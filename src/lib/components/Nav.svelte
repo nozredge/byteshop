@@ -1,11 +1,12 @@
 <script>
     import { HeartIcon, SearchIcon, ShoppingCartIcon } from 'svelte-feather-icons'
+    import Logo from '$lib/components/Logo.svelte'
 </script>
 
 <nav>
     <div class="container">
-        <div class="logo">
-
+        <div class="logo-container">
+                <Logo />
         </div>
 
         <div class="links-container">
@@ -32,14 +33,31 @@
     </div>
 </nav>
 
+<nav class="underline"></nav>
+
 <style>
     
+    .logo-container {
+        width: 20vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .container {
         display: flex;
+        width: 100vw;
+        height: 10vh;
+        background-color: #f4f4f8;
+    }
+
+    .underline {
+        background-color: #6c757d;
+        height: 0.5em;
     }
 
     .search-cart-container {
-        width: 30vw;
+        width: 20vw;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -68,8 +86,6 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        background-color: #f4f4f8;
-        height: 15vh;
         width: 60vw;
     }
 
