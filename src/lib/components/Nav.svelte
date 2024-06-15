@@ -52,7 +52,7 @@
     }
 
     .underline {
-        background-color: #6c757d;
+        background-color: #718093;
         height: 1vh;
     }
 
