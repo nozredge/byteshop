@@ -1,0 +1,22 @@
+<script>
+    const full_product_name_path = '/src/lib/assets/img/';
+    export let product_name;
+</script>
+
+<div>
+    <div class="telefono" 
+        style="background-image: url('/src/lib/assets/img/{product_name}.avif');"></div>
+</div>
+
+<style>
+    .phone {
+        height: 30vh;
+    }
+
+    .telefono {
+        /*background-size: 3em; */
+        height: 40vh;
+        width: 20vw;
+        background-size: contain;
+    }
+</style>
