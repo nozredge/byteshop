@@ -1,11 +1,12 @@
 <script>
     const full_product_name_path = '/src/lib/assets/img/';
+    const extension = '.png';
     export let product_name;
 </script>
 
 <div>
     <div class="telefono" 
-        style="background-image: url('/src/lib/assets/img/{product_name}.avif');"></div>
+        style="background-image: url('/src/lib/assets/img/{product_name}{extension}');"></div>
 </div>
 
 <style>
