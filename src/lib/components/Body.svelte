@@ -1,0 +1,11 @@
+<div>
+    
+</div>
+
+<style>
+    div {
+        background-color: aliceblue;
+        width: 70vw;
+        height: 90vh;
+    }
+</style>
