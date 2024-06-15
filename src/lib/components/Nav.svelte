@@ -53,7 +53,7 @@
 
     .underline {
         background-color: #6c757d;
-        height: 0.5em;
+        height: 1vh;
     }
 
     .search-cart-container {
