@@ -9,9 +9,6 @@
 </div>
 
 <style>
-    .phone {
-        height: 30vh;
-    }
 
     .telefono {
         /*background-size: 3em; */
