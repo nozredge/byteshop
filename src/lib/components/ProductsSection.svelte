@@ -1,8 +1,14 @@
-<div class="products-container">
+<script>
+    import ProductsTitle from "./ProductsTitle.svelte";
+    import Product from "./Product.svelte";
+</script>
+
+<div class="products-section-container">
+    <ProductsTitle />
 </div>
 
 <style>
-    .products-container {
+    .products-section-container {
         width: 70vw;
         height: 89vh;
         display: grid;
