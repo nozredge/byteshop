@@ -10,6 +10,5 @@
     .body-container {
         display: flex;
         justify-content: center;
-        background-color: #f4f4f8;
     }
 </style>

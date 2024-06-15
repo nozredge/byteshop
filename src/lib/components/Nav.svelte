@@ -47,9 +47,7 @@
     .container {
         display: flex;
         width: 100vw;
-        height: 10vh;
-        background-color: #f4f4f8;
-    }
+        height: 10vh;    }
 
     .underline {
         background-color: #6c757d;
