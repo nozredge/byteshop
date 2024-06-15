@@ -1,8 +1,9 @@
 <script>
+    import ProductsSection from "./ProductsSection.svelte";
 </script>
 
 <div class="body-container">
-    
+    <ProductsSection />
 </div>
 
 <style>
