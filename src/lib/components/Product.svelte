@@ -1,12 +1,12 @@
 <script>
     const full_product_name_path = '/src/lib/assets/img/';
     const extension = '.png';
-    export let product_name;
+    export let name;
 </script>
 
 <div>
     <div class="product" 
-        style="background-image: url('/src/lib/assets/img/{product_name}{extension}');"></div>
+        style="background-image: url('/src/lib/assets/img/{name}{extension}');"></div>
 </div>
 
 <style>
