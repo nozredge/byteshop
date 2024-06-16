@@ -11,8 +11,8 @@
 </script>
 
 <div class="product-container">
-    <div class="product-image-container" >
-        <div class="product-image" style="background-color: {color};">
+    <div class="product-image-container" style="background-color: {color};">
+        <div class="product-image">
             {#if name === 'pods'}
                 <img
                     loading="lazy" 
@@ -63,8 +63,23 @@
         align-items: center;
     }
 
+    .product-image-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .product-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70%;
+        width: 70%;
+    }
+
     img {
-        margin-top: 1rem;
         width: 100%;
         height: 100%;
     }
