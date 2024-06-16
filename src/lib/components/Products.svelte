@@ -3,11 +3,12 @@
 </script>
 
 <div>
-    <Product name="camisa_casual" width = "40%" height="90%" align_self="center"/>
-    <Product name="telefono1" width="50%" height="80%" align_self="center"/>
+    <Product name="camisa_casual" width = "40%" height="100%" align_self="center"/>
+    <Product name="telefono1" width="45%" height="90%" align_self="center"/>
     <Product name="set_cuchillos" width="50%" height="80%" align_self="center"/>
-    <Product name="pods" width="50%" height="80%" align_self="center"/>
-    <Product name="telefono2" width="50%" height="80%" align_self="center"/>
+    <Product name="pods" width="70%" height="100%" align_self="center"/>
+    <Product name="telefono2" width="50%" height="100%" align_self="center"/>
+    <Product name="zapatos" width="70%" height="100%" align_self="center"/>
 </div>
 
 <style>

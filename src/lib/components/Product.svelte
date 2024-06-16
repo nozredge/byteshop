@@ -21,7 +21,6 @@
 <style>
 
     .product-container {
-        background-color: #ebf5fb;
         width: auto;
         height: 50vh;
         display: grid;
@@ -33,7 +32,6 @@
         /*background-size: 3em; */
         background-size: contain;
         background-repeat: no-repeat;
-        background-color: antiquewhite;
         align-self: auto;
     }
 </style>
