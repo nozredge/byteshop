@@ -5,8 +5,8 @@
 <div>
     <Product name="camisa_casual"/>
     <Product name="libro" color="#F6F9FF"/>
-    <Product name="set_cuchillos" color="#FFFef1"/>
-    <Product name="pods"  color="#FFFef1"/>
+    <Product name="set_cuchillos" color="#Fafff5"/>
+    <Product name="pods"  color="#Fafff5"/>
     <Product name="telefono2" color="#F6F9FF"/>
     <Product name="zapatos"/>
 </div>
