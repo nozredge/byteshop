@@ -1,7 +1,8 @@
-<script>
+<script lang="ts">
     import { HeartIcon, SearchIcon, ShoppingCartIcon } from 'svelte-feather-icons'
     import Logo from './Logo.svelte'
     import "@fontsource/montserrat";
+    export let cart_total: number = 0;
 </script>
 
 <nav>
@@ -29,7 +30,7 @@
             <div class="cart-icon">
                 <ShoppingCartIcon size="30" />
             </div>
-            <div class="total-price">$24.900</div>
+            <div class="total-price">{cart_total}</div>
         </div>
     </div>
 </nav>
