@@ -5,14 +5,14 @@
     import libro from '$lib/assets/img/libro.png';
     import telefono2 from '$lib/assets/img/telefono2.png';
     import zapatos from '$lib/assets/img/zapatos.png';
-    
+
     export let name;
     export let color = "#F9F9F9";
 </script>
 
 <div class="product-container">
-    <div class="product-image-container" style="background-color: {color};">
-        <div class="product-image">
+    <div class="product-image-container" >
+        <div class="product-image" style="background-color: {color};">
             {#if name === 'pods'}
                 <img
                     loading="lazy" 
@@ -56,11 +56,6 @@
 
 <style>
 
-    img {
-        width: 20vw;
-        height: 40vh;
-    }
-
     .product-container {
         display: grid;
         grid-template-rows: 5fr 2fr;
@@ -68,10 +63,9 @@
         align-items: center;
     }
 
-    .product-image-container {
+    img {
+        margin-top: 1rem;
         width: 100%;
         height: 100%;
-        display: flex;
-        justify-content: center;
     }
 </style>
