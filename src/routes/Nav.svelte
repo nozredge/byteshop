@@ -2,7 +2,14 @@
     import { HeartIcon, SearchIcon, ShoppingCartIcon } from 'svelte-feather-icons'
     import Logo from './Logo.svelte'
     import "@fontsource/montserrat";
-    export let cart_total: number = 0;
+    import { store } from './stores';
+    
+    let cart_total: number;
+    
+    store.subscribe((value) => 
+    {
+        cart_total = value;
+    });
 </script>
 
 <nav>

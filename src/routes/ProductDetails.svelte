@@ -1,10 +1,16 @@
 <script lang="ts">
     import "@fontsource/montserrat";
+    import { store } from "./stores";
+
+    function add_item_to_cart() 
+    {
+        store.update((value) => value + 1);
+    }
 </script>
 
 <div class="details">
     <p>Producto</p>
-    <button>+ Agregar al carrito</button>
+    <button on:click={add_item_to_cart}>+ Agregar al carrito</button>
     <p>$23.990</p>
 </div>
 
