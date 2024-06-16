@@ -5,17 +5,19 @@
     export let width;
     export let height;
     export let align_self = 'auto';
+    export let color = "#e9ecee";
 </script>
 
-<div class="product-container">
+<div class="product-container"
+    style="background-color: {color};">
     <div class="product" 
         style="
             background-image: url('/src/lib/assets/img/{name}{extension}');
             width: {width};
             height: {height};
             align-self: {align_self}
-            "
-    ></div>
+            ">
+    </div>
 </div>
 
 <style>
@@ -26,6 +28,7 @@
         display: grid;
         grid-template-rows: 5fr 3fr;
         justify-items: center;
+        background-color: #e9ecee;
     }
 
     .product {
