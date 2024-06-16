@@ -1,5 +1,4 @@
 <script>
-    const full_product_name_path = '/src/lib/assets/img/';
     const extension = '.png';
     export let name;
     export let width;
@@ -31,7 +30,6 @@
     }
 
     .product {
-        /*background-size: 3em; */
         background-size: contain;
         background-repeat: no-repeat;
         align-self: auto;
