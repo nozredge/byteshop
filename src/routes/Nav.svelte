@@ -1,6 +1,6 @@
 <script>
     import { HeartIcon, SearchIcon, ShoppingCartIcon } from 'svelte-feather-icons'
-    import Logo from '$lib/components/Logo.svelte'
+    import Logo from './Logo.svelte'
 </script>
 
 <nav>
