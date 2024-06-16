@@ -1,3 +1,8 @@
+<script>
+    import "@fontsource/montserrat";
+</script>
+
+
 <footer>
     <div class="footer-container">
         <div class="contact-details">
@@ -20,10 +25,16 @@
 </footer>
 
 <style>
+
+    * {
+        color: #f0f3f4;
+    }
+
     footer {
+        font-family: "Montserrat";
         width: 100vw;
         height: 30vh;
-        background-color: #6c757d;
+        background-color: #33495e;
         display: flex;
         justify-content: center;
     }
@@ -53,5 +64,9 @@
     .copyright {
         display: flex;
         align-items: center;
+    }
+
+    .copyright > h2 {
+        font-size: 1em;
     }
 </style>
