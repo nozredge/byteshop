@@ -4,7 +4,7 @@
     export let width;
     export let height;
     export let align_self = 'auto';
-    export let color = "#e9ecee";
+    export let color = "#F9F9F9";
 </script>
 
 <div class="product-container"
