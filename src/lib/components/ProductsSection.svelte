@@ -12,7 +12,7 @@
 <style>
     .products-section-container {
         width: 70vw;
-        height: 89vh;
+        height: 150vh;
         display: grid;
         grid-template-rows: 1fr 6fr;
     }
