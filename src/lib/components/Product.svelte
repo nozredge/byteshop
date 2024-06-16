@@ -28,7 +28,6 @@
         display: grid;
         grid-template-rows: 5fr 3fr;
         justify-items: center;
-        background-color: #e9ecee;
     }
 
     .product {
