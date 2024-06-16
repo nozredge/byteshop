@@ -17,14 +17,7 @@
 
 <div class="product-container"
     style="background-color: {color};">
-    <!-- <div class="product" 
-        style="
-            background-image: url('/src/lib/assets/img/{name}{extension}');
-            width: {width};
-            height: {height};
-            align-self: {align_self}
-            ">
-    </div> -->
+    
     {#if name === 'pods'}
         <img
             loading="lazy" 
