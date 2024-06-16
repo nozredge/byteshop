@@ -9,10 +9,12 @@
 </div>
 
 <style>
+
     div {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 5vh 7vh;
+        grid-template-rows: 5vh 5vh;
+        align-items: end;
         width: 100%;
     }
 
@@ -22,16 +24,17 @@
     }
 
     div :nth-child(3) {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
     div :nth-child(2) {
         color:#e84855;
+        font-size: 1.1rem;
     }
 
     div :nth-child(2):hover {
         cursor: pointer;
-        font-size: 1.1rem;
         color:#e84815;
+
     }
 </style>
