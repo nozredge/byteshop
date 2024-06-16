@@ -9,14 +9,24 @@
 
 <div class="product-container"
     style="background-color: {color};">
-    <div class="product" 
+    <!-- <div class="product" 
         style="
             background-image: url('/src/lib/assets/img/{name}{extension}');
             width: {width};
             height: {height};
             align-self: {align_self}
             ">
-    </div>
+    </div> -->
+    <img
+        loading="lazy" 
+        src="/src/lib/assets/img/{name}.png" 
+        alt="A product"
+        style="
+            width: {width};
+            height: {height};
+            align-self: {align_self}
+        "
+    >
 </div>
 
 <style>
