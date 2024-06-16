@@ -3,7 +3,7 @@
 </script>
 
 <div>
-    <Product name="camisa_casual" color="#e74c3c"/>
+    <Product name="camisa_casual"/>
     <Product name="libro" color="#F6F9FF"/>
     <Product name="set_cuchillos" color="#FFFef1"/>
     <Product name="pods"  color="#FFFef1"/>
