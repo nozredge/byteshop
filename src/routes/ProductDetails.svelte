@@ -15,7 +15,7 @@
         border: 0.2rem solid #ccd1d1;
         border-radius: 1.2rem;
         cursor: pointer;
-        color: #555;
+        color: #2c3e4f;
         padding: 0.4rem;
         text-align: center;
     }
@@ -28,9 +28,9 @@
         width: 100%;
     }
 
-    p {
+    * {
         font-family: "Montserrat";
-        color: #343a40;
+        color: #555;
     }
 
     div :nth-child(3) {
