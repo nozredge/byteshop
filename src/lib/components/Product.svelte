@@ -30,6 +30,7 @@
     }
 
     .product {
+        margin-top: 3em;
         background-size: contain;
         background-repeat: no-repeat;
         align-self: auto;
