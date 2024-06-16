@@ -4,6 +4,7 @@
     export let name;
     export let width;
     export let height;
+    export let align_self = 'auto';
 </script>
 
 <div class="product-container">
@@ -12,6 +13,7 @@
             background-image: url('/src/lib/assets/img/{name}{extension}');
             width: {width};
             height: {height};
+            align-self: {align_self}
             "
     ></div>
 </div>
@@ -20,7 +22,7 @@
 
     .product-container {
         background-color: #ebf5fb;
-        width: 15vw;
+        width: auto;
         height: 50vh;
         display: grid;
         grid-template-rows: 5fr 3fr;
@@ -32,5 +34,6 @@
         background-size: contain;
         background-repeat: no-repeat;
         background-color: antiquewhite;
+        align-self: auto;
     }
 </style>

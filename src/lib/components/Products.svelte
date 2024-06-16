@@ -3,17 +3,18 @@
 </script>
 
 <div>
-    <Product name="camisa_casual" width = "70%" height="auto"/>
-    <Product name="novela" width="70%" height="auto"/>
-    <Product name="set_cuchillos" width="100%" height="100%"/>
-    <Product name="bicicleta" width="80%" height="50%"/>
+    <Product name="camisa_casual" width = "40%" height="90%" align_self="center"/>
+    <Product name="telefono1" width="50%" height="80%" align_self="center"/>
+    <Product name="set_cuchillos" width="50%" height="80%" align_self="center"/>
+    <Product name="pods" width="50%" height="80%" align_self="center"/>
+    <Product name="telefono2" width="50%" height="80%" align_self="center"/>
 </div>
 
 <style>
     div {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 2fr;
-        row-gap: 5em;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 2em;
     }    
 </style>
