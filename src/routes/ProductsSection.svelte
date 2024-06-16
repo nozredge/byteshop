@@ -1,6 +1,5 @@
 <script>
     import ProductsTitle from "./ProductsTitle.svelte";
-    import Product from "./Product.svelte";
     import Products from "./Products.svelte";
 </script>
 
