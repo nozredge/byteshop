@@ -1,6 +1,7 @@
 <script>
     import { HeartIcon, SearchIcon, ShoppingCartIcon } from 'svelte-feather-icons'
     import Logo from './Logo.svelte'
+    import "@fontsource/montserrat";
 </script>
 
 <nav>
@@ -90,7 +91,7 @@
 
     a {
         text-decoration: none;
-        font-size: 1.2em;
+        font-size: 1.4em;
         color: #1e1e24;
     }
 
@@ -103,7 +104,7 @@
     }
 
     * {
-        font-family: "M PLUS Rounded 1c", sans-serif;
+        font-family: "Montserrat";
     }
 
     
