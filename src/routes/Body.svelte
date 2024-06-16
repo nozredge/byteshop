@@ -8,6 +8,7 @@
 
 <style>
     .body-container {
+        width: 100vw;
         display: flex;
         justify-content: center;
     }
