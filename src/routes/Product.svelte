@@ -5,6 +5,7 @@
     import libro from '$lib/assets/img/libro.png';
     import telefono2 from '$lib/assets/img/telefono2.png';
     import zapatos from '$lib/assets/img/zapatos.png';
+    import ProductDetails from './ProductDetails.svelte';
 
     export let name;
     export let color = "#F9F9F9";
@@ -52,6 +53,8 @@
             {/if}
         </div>
     </div>
+
+    <ProductDetails />
 </div>
 
 <style>
