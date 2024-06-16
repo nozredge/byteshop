@@ -5,9 +5,7 @@
     import libro from '$lib/assets/img/libro.png';
     import telefono2 from '$lib/assets/img/telefono2.png';
     import zapatos from '$lib/assets/img/zapatos.png';
-
-
-    const extension = '.png';
+    
     export let name;
     export let color = "#F9F9F9";
 </script>
@@ -16,11 +14,11 @@
     <div class="product-image-container" style="background-color: {color};">
         <div class="product-image">
             {#if name === 'pods'}
-            <img
-                loading="lazy" 
-                src={pods} 
-                alt="A product"
-            >
+                <img
+                    loading="lazy" 
+                    src={pods} 
+                    alt="A product"
+                >
             {:else if name === 'camisa_casual'}
                 <img
                     loading="lazy" 
@@ -28,11 +26,11 @@
                     alt="A product"
                 >
             {:else if name === 'set_cuchillos'}
-            <img
-                loading="lazy" 
-                src={set_cuchillos} 
-                alt="A product"
-            >
+                <img
+                    loading="lazy" 
+                    src={set_cuchillos} 
+                    alt="A product"
+                >
             {:else if name === 'libro'}
                 <img
                     loading="lazy" 
@@ -40,11 +38,11 @@
                     alt="A product"
                 >
             {:else if name === 'telefono2'}
-            <img
-                loading="lazy" 
-                src={telefono2} 
-                alt="A product"
-            >
+                <img
+                    loading="lazy" 
+                    src={telefono2} 
+                    alt="A product"
+                >
             {:else if name === 'zapatos'}
                 <img
                     loading="lazy" 
