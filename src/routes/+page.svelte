@@ -2,9 +2,11 @@
     import Nav from "./Nav.svelte"
     import Body from "./Body.svelte"
     import Footer from "./Footer.svelte";
+    import PaymentCard from "./PaymentCard.svelte";
 </script>
 
 <Nav />
+<PaymentCard />
 <Body />
 <Footer />
 
